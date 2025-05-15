@@ -54,10 +54,6 @@
         text-decoration: underline;
     }
 
-    .info p{
-        
-    }
-
     .info p span{
         font-weight : bold;
         

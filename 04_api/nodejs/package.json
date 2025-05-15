@@ -1,0 +1,17 @@
+{
+  "name": "api_nodejs",
+  "version": "0.0.1",
+  "description": "Proyecto nodejs para una prueba de api's",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "nodemon server.js"
+  },
+  "author": "sebsmerike",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.1"
+  }
+}

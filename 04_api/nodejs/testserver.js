@@ -1,15 +1,15 @@
-import express from 'express';
+import express from 'express'
 
 const port = 8080;
 
 const app = express();
-app.use(express.json()); // Convierte JSON de BODY automáticamente para usarlo local
+//app.use(express.json()); // Convierte JSON de BODY automáticamente para usarlo local
 
 app.get("/", (req, res) => {
     res.send("Hello World");
 });
 
-app.get("/user", (req, res) => {
+app.get("/users", (req, res) => {
     res.send("SELECT * FROM user;");
 });
 
@@ -19,7 +19,11 @@ app.get("/user/:id", (req, res) => {
 });
 
 app.post("/user", (req, res) => {
-    const name = req.body.name;
+    
+    console.log(req.headers);
+    console.log(req.body);
+
+    const name = "nani"; //req.body.name;
     res.send(`SELECT * FROM user WHERE username like ${name};`);
 });
 

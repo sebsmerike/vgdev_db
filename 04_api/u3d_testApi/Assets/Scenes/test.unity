@@ -583,7 +583,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 0815e2e376dfd4b4eb20c6da26d3e4d7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1334,7 +1334,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 805231733}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1822358920}
+        m_TargetAssemblyTypeName: Login, Assembly-CSharp
+        m_MethodName: tryLogin
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &805231733
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1779,7 +1791,7 @@ GameObject:
   - component: {fileID: 1291144078}
   - component: {fileID: 1291144077}
   m_Layer: 5
-  m_Name: get
+  m_Name: serverResp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2347,6 +2359,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b1d67693bc13f647a764154f4f8c515, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  txtLogger: {fileID: 1291144077}
+  txtUser: {fileID: 460919018}
+  txtPass: {fileID: 2007356825}
+  mat: {fileID: 2100000, guid: 0815e2e376dfd4b4eb20c6da26d3e4d7, type: 2}
 --- !u!4 &1822358921
 Transform:
   m_ObjectHideFlags: 0

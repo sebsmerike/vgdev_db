@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\laragon\\www\\vgdev_db\\04_api\\u3d_testApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7EADAEEA-C5B7-38BB-9A93-AB5F54E44538}|Assembly-CSharp.csproj|c:\\laragon\\www\\vgdev_db\\04_api\\u3d_testapi\\assets\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EADAEEA-C5B7-38BB-9A93-AB5F54E44538}|Assembly-CSharp.csproj|solutionrelative:assets\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7EADAEEA-C5B7-38BB-9A93-AB5F54E44538}|Assembly-CSharp.csproj|c:\\laragon\\www\\vgdev_db\\04_api\\u3d_testapi\\assets\\scripts\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EADAEEA-C5B7-38BB-9A93-AB5F54E44538}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\laragon\\www\\vgdev_db\\04_api\\u3d_testApi\\Assets\\Login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,14 +24,25 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Login.cs",
+              "DocumentMoniker": "C:\\laragon\\www\\vgdev_db\\04_api\\u3d_testApi\\Assets\\scripts\\Login.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\Login.cs",
+              "ToolTip": "C:\\laragon\\www\\vgdev_db\\04_api\\u3d_testApi\\Assets\\scripts\\Login.cs",
+              "RelativeToolTip": "Assets\\scripts\\Login.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T05:42:46.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cs",
               "DocumentMoniker": "C:\\laragon\\www\\vgdev_db\\04_api\\u3d_testApi\\Assets\\Login.cs",
               "RelativeDocumentMoniker": "Assets\\Login.cs",
               "ToolTip": "C:\\laragon\\www\\vgdev_db\\04_api\\u3d_testApi\\Assets\\Login.cs",
               "RelativeToolTip": "Assets\\Login.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T05:22:23.142Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T05:22:23.142Z"
             }
           ]
         }

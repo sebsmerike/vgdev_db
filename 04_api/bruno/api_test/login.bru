@@ -1,0 +1,19 @@
+meta {
+  name: login
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:8080/user
+  body: formUrlEncoded
+  auth: inherit
+}
+
+body:form-urlencoded {
+  username: asd
+}
+
+body:multipart-form {
+  username: asd
+}
